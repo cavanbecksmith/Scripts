@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 # Download and install the public signing key:
 wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo gpg --dearmor -o /usr/share/keyrings/elasticsearch-keyring.gpg
 
